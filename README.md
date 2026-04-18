@@ -18,9 +18,14 @@ echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 mkdir -p ~/.config/fish
 echo 'zoxide init fish | source' >> ~/.config/fish/config.fish
 
-fish -c "curl -fsSL https://bun.sh/install | bash"
-fish -c "curl -fsSL https://deno.land/install.sh | sh"
-fish -c "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash"
+mkdir -p "$HOME/.config/.fish/completions"
+rg --generate complete-fish > "$HOME/.config/.fish/completions/rg.fish"
+
+curl -fsSL https://bun.sh/install | bash
+SHELL=fish bun completions ~/.config/fish/completions
+
+curl -fsSL https://deno.land/install.sh | sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 ```
 https://github.com/Mopsgamer/github-sign-commits
 </details>
