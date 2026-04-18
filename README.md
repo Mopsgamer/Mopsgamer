@@ -18,8 +18,8 @@ echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 mkdir -p ~/.config/fish
 echo 'zoxide init fish | source' >> ~/.config/fish/config.fish
 
-mkdir -p "$HOME/.config/.fish/completions"
-rg --generate complete-fish > "$HOME/.config/.fish/completions/rg.fish"
+mkdir -p ~/.config/fish/completions
+rg --generate complete-fish > ~/.config/fish/completions/rg.fish
 
 curl -fsSL https://bun.sh/install | bash
 SHELL=fish bun completions ~/.config/fish/completions
