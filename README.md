@@ -1,11 +1,11 @@
 ## Hi there 👋
 
-[![Sources](https://img.shields.io/badge/Sources-3A86A2?style=for-the-badge&logo=github&logoColor=black)](https://github.com/search?q=user%3AMopsgamer+fork%3Atrue&type=repositories)
-[![Contributions](https://img.shields.io/badge/Contributions-39B353?style=for-the-badge&logo=github&logoColor=black)](https://github.com/search?q=is%3Apr+author%3AMopsgamer+-user%3AMopsgamer&type=pullrequests)
-[![Mentions](https://img.shields.io/badge/Mentions-AB6BD9?style=for-the-badge&logo=github&logoColor=black)](https://github.com/search?q=mentions%3AMopsgamer+-user%3AMopsgamer&type=pullrequests)
+I'm Lev, and I'm trying to fix stuff.
+
+<a href="https://github.com/search?q=user%3AMopsgamer+fork%3Atrue&type=repositories"><kbd><img src="https://github.githubassets.com/favicons/favicon-dark.svg" height="20" align="center"> Sources</kbd></a> <a href="https://github.com/search?q=is%3Apr+author%3AMopsgamer+-user%3AMopsgamer&type=pullrequests"><kbd><img src="https://github.githubassets.com/favicons/favicon-dark.svg" height="20" align="center"> Contributions</kbd></a> <a href="https://github.com/search?q=mentions%3AMopsgamer+-user%3AMopsgamer&type=pullrequests"><kbd><img src="https://github.githubassets.com/favicons/favicon-dark.svg" height="20" align="center"> Mentions</kbd></a>
 
 <details>
-<summary>Bootstrap</summary>
+<summary>Linux Bootstrap</summary>
 
 ```bash
 sudo apt update && sudo apt install -y \
@@ -30,7 +30,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 https://github.com/Mopsgamer/github-sign-commits
 </details>
 
-### Valuable Contributions
+### Pending
 https://github.com/microsoft/vscode-vsce/pull/1257
 https://github.com/streamich/memfs/pull/1224
 
