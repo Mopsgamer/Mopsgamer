@@ -1,4 +1,4 @@
-## Hi there 👋
+## Hi there 🌵
 
 I'm Lev, and I'm trying to fix stuff.
 
@@ -30,8 +30,12 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 https://github.com/Mopsgamer/github-sign-commits
 </details>
 
-### Pending
+### Pending :shipit:
+
 https://github.com/microsoft/vscode-vsce/pull/1257
+
 https://github.com/streamich/memfs/pull/1224
+
 https://github.com/npmx-dev/npmx.dev/pull/2464
+
 https://github.com/BetterDiscord/BetterDiscord/pull/2127
