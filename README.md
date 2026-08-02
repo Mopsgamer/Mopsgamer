@@ -14,6 +14,9 @@ sudo apt update && sudo apt install -y \
   fish
 chsh -s $(which fish)
 
+git config --global push.followTags true
+git config --global pull.rebase true
+
 echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 mkdir -p ~/.config/fish
 echo 'zoxide init fish | source' >> ~/.config/fish/config.fish
