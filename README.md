@@ -2,10 +2,12 @@
 
 I'm Lev, and I'm trying to fix stuff.
 
+Discord ([accept friend request](https://discord.gg/ASQq9VkB)), Telegram - mops0234
+
 <a href="https://github.com/search?q=user%3AMopsgamer+fork%3Atrue&type=repositories"><kbd><img src="https://github.githubassets.com/favicons/favicon-dark.svg" height="20" align="center"> Sources</kbd></a> <a href="https://github.com/search?q=is%3Apr+author%3AMopsgamer+-user%3AMopsgamer&type=pullrequests"><kbd><img src="https://github.githubassets.com/favicons/favicon-dark.svg" height="20" align="center"> Contributions</kbd></a> <a href="https://github.com/search?q=mentions%3AMopsgamer+-user%3AMopsgamer&type=pullrequests"><kbd><img src="https://github.githubassets.com/favicons/favicon-dark.svg" height="20" align="center"> Mentions</kbd></a>
 
 <details>
-<summary>Linux Bootstrap</summary>
+<summary>Linux Bootstrap (for me)</summary>
 
 ```bash
 sudo apt update && sudo apt install -y \
