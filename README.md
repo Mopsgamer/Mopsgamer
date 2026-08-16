@@ -18,6 +18,7 @@ chsh -s $(which fish)
 
 git config --global push.followTags true
 git config --global pull.rebase true
+fish -c "alias --save fixup='git commit -am \"fixup\"'"
 
 echo 'eval "$(zoxide init bash)"' >> ~/.bashrc
 mkdir -p ~/.config/fish
