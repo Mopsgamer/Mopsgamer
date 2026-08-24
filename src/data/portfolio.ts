@@ -5,7 +5,6 @@ export interface Project {
   description: string;
   url: string;
   type: 'project' | 'pr';
-  status: 'active' | 'pending' | 'merged' | 'featured';
   statusLabel: string;
   tags: string[];
   stars?: number;
@@ -111,7 +110,6 @@ export const projectsData: Project[] = [
     description: "Automated tool and CLI workflow to seamlessly setup, configure, and sign Git commits using GitHub keys and GPG/SSH workflows.",
     url: "https://github.com/Mopsgamer/github-sign-commits",
     type: "project",
-    status: "featured",
     statusLabel: "Featured Tool",
     tags: ["Git", "Security", "CLI", "Automation", "TypeScript"],
     animationDelay: "0s",
@@ -125,7 +123,6 @@ export const projectsData: Project[] = [
     description: "Fixes and DX improvements for official VS Code Extension publishing utility command line tool.",
     url: "https://github.com/microsoft/vscode-vsce/pull/1257",
     type: "pr",
-    status: "pending",
     statusLabel: "Pending PR",
     tags: ["VS Code", "CLI", "TypeScript", "Publishing"],
     animationDelay: "0.8s",
@@ -139,7 +136,6 @@ export const projectsData: Project[] = [
     description: "Core fixes and file handling optimization for Node.js in-memory virtual filesystem library.",
     url: "https://github.com/streamich/memfs/pull/1224",
     type: "pr",
-    status: "pending",
     statusLabel: "Pending PR",
     tags: ["Virtual FS", "Node.js", "In-Memory", "Storage"],
     animationDelay: "1.6s",
@@ -153,7 +149,6 @@ export const projectsData: Project[] = [
     description: "Developer experience enhancements and web package tooling fixes for npmx.dev registry search.",
     url: "https://github.com/npmx-dev/npmx.dev/pull/2464",
     type: "pr",
-    status: "pending",
     statusLabel: "Pending PR",
     tags: ["Package Manager", "Web", "DX", "Registry"],
     animationDelay: "1.2s",
@@ -167,8 +162,7 @@ export const projectsData: Project[] = [
     description: "Client enhancement and plugin API refinements for the BetterDiscord desktop ecosystem.",
     url: "https://github.com/BetterDiscord/BetterDiscord/pull/2127",
     type: "pr",
-    status: "pending",
-    statusLabel: "Pending PR",
+    statusLabel: "Closed PR",
     tags: ["Electron", "Discord", "Plugins", "UI"],
     animationDelay: "2.0s",
     floatSpeed: "medium",
