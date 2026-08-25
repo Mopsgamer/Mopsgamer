@@ -1,8 +1,6 @@
 ## Hi there 🌵
 
-I'm Lev, and I'm trying to fix stuff. https://mopsgamer.github.io/Mopsgamer/
-
-Ukrainian, human (unfortunately).
+I'm Lev, and I'm trying to fix stuff.
 
 Discord ([accept friend request](https://discord.gg/ASQq9VkB)), Telegram - mops0234
 
@@ -37,3 +35,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 ```
 https://github.com/Mopsgamer/github-sign-commits
 </details>
+
+### Pending :shipit:
+
+https://github.com/microsoft/vscode-vsce/pull/1257
+
+https://github.com/streamich/memfs/pull/1224
+
+https://github.com/npmx-dev/npmx.dev/pull/2464
