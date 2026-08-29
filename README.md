@@ -43,3 +43,5 @@ https://github.com/microsoft/vscode-vsce/pull/1257
 https://github.com/streamich/memfs/pull/1224
 
 https://github.com/npmx-dev/npmx.dev/pull/2464
+
+https://github.com/npmx-dev/npmx.dev/pull/3214
